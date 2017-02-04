@@ -1,0 +1,51 @@
+/*
+ * Base CSS
+ */
+
+body {
+  background-color: #fff;
+}
+
+.nav-wrapper {
+  padding: 2rem;
+}
+
+/*
+ * Navigation CSS
+ */
+
+.navbar-brand {
+  font-weight: bold;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+@media (max-width: 991px) {
+  ul.nav-menu {
+    background-color: rgba(255,255,255,.7);
+  }
+}
+
+.dropdown-item {
+  color: #383838;
+}
+
+/*
+ * Container CSS
+ */
+
+.container {
+  height: 20rem;
+  background-image: url(../img/rider_img.jpg);
+  background-size: cover;
+}
+
+.title {
+  padding: 3rem 1.5rem;
+  text-align: center;
+  color: #FFF;
+}
+
+h1.title {
+  font-family: Tahoma, Geneva, sans-serif;
+}
+

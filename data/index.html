@@ -7,17 +7,61 @@
     <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Photolib</title>
+    <title>tipSnowboarding | Top page</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" type="text/css" href="assets/css/cover.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/toggle.css">
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <div class="nav-wrapper">
+      <nav class="navbar navbar-toggleable-md navbar-light">
+        <button type="button" class="tcon tcon-menu--xcross navbar-toggler navbar-toggler-right collapsed" data-toggle="collapse" data-target="#collapsedNavbar" aria-controls="collapsedNavbar" aria-expanded="false" aria-label="toggle menu">
+          <span class="tcon-menu__lines" aria-hidden="true"></span>
+          <span class="tcon-visuallyhidden">toggle menu</span>
+        </button>
+
+        <a class="navbar-brand" href="#">tipSnowboarding</a>
+
+        <div class="navbar-collapse collapse" id="collapsedNavbar" aria-expanded="false">
+          <ul class="navbar-nav mr-auto nav-menu">
+            <li class="nav-item">
+              <a class="nav-link" style="color: #383838" href="#">Test1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #383838" href="#">Test2</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" style="color: #383838" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Test3</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="#">Test-A</a>
+                <a class="dropdown-item" href="#">Test-B</a>
+                <a class="dropdown-item" href="#">Test-C</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+
+    <div class="container">
+      <div class="title">
+        <div class="img-layer">
+          <h1>tipSnowboarding</h1>
+          <p>Hello World!</p>
+        </div>
+      </div>
+    </div>
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="assets/js/transformicons.js"></script>
+    <script>transformicons.add('.tcon')</script>
   </body>
 </html>

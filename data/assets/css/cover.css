@@ -77,6 +77,28 @@ h1.title {
   margin: 0 auto; display: block;
 }
 
+.youtube_play:hover {
+  cursor: pointer;
+}
+
+.youtube_btn {
+  width: 42px;
+  height: 30px;
+  background-image: url(../img/YouTube-icon-dark.png);
+
+  position: absolute;
+  top: 0;
+  bottom: 10%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.thumbnail {
+  margin: 0 auto;
+  display: block;
+}
+
 
 /*
  * Footer CSS

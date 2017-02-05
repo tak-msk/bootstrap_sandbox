@@ -19,10 +19,8 @@ body {
   font-family: Tahoma, Geneva, sans-serif;
 }
 
-@media (max-width: 991px) {
-  ul.nav-menu {
-    background-color: rgba(255,255,255,.7);
-  }
+nav {
+  background-color: rgba(255,255,255,.7);
 }
 
 .dropdown-item {
@@ -33,7 +31,7 @@ body {
  * Container CSS
  */
 
-.container {
+.top-image {
   height: 20rem;
   background-image: url(../img/rider_img.jpg);
   background-size: cover;
@@ -49,3 +47,46 @@ h1.title {
   font-family: Tahoma, Geneva, sans-serif;
 }
 
+
+/*
+ * Youtube video CSS
+ */
+
+.v-list {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #f7f7f7;
+}
+
+.card {
+  float: left;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.youtube {
+  margin: 10px 0;
+}
+
+.youtube iframe {
+  margin: 0 auto; display: block;
+}
+
+
+/*
+ * Footer CSS
+ */
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.back-to-top {
+  float: right;
+}
